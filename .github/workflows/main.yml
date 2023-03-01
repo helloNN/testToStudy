@@ -9,7 +9,9 @@ jobs:
         run: pwd
 
       - name: 显示目录文件
-        run: ls
+        run: |
+          ls /home/runner/work
+          ls /home/runner/work/testToStudy
 
       - name: 运行linux命令
         run: |
