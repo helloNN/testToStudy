@@ -5,13 +5,12 @@ jobs:
   run-index:
     runs-on: ubuntu-latest
     steps:
-      - name: 显示当前地址
-        run: pwd
-
       - name: 克隆代码
         run: |
           git clone https://github.com/helloNN/testToStudy.git
           cd testToStudy
+          pwd
+          tree
 
       - name: 运行node.js
         run: npm start
