@@ -11,8 +11,7 @@ jobs:
       - name: 显示目录文件
         run: |
           pwd
-          ls `pwd`
-          ls `pwd`/..
+          tree /home
 
       - name: 运行linux命令
         run: |
