@@ -8,11 +8,12 @@ jobs:
       - name: 克隆代码
         run: |
           git clone https://github.com/helloNN/testToStudy.git
-          cd testToStudy
           pwd
           tree
 
       - name: 运行node.js
         run: |
+          cd testToStudy
           pwd
+          tree
           npm start
