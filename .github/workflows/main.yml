@@ -13,4 +13,6 @@ jobs:
           tree
 
       - name: 运行node.js
-        run: npm start
+        run: |
+          pwd
+          npm start
