@@ -19,4 +19,4 @@ jobs:
           echo hello world > hello.txt
           date
       - name: 运行node.js
-        run: node index.js
+        run: node ../../index.js
