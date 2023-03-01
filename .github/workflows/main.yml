@@ -8,7 +8,10 @@ jobs:
       - name: 显示当前地址
         run: pwd
 
+      - name: 显示目录文件
+        run: ls
+
       - name: 运行linux命令
         run: |
           echo hello world > hello.txt
-          echo date
+          date
