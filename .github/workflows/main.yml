@@ -1,0 +1,14 @@
+name: 学习github workflow(main.yaml)
+on: workflow_dispatch
+
+jobs:
+  run-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run index.js
+        run: node /index.js
+
+      - name: run linux command
+        run: |
+          echo hello world > hello.txt
+          echo date
