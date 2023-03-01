@@ -8,14 +8,5 @@ jobs:
       - name: 显示当前地址
         run: pwd
 
-      - name: 显示目录文件
-        run: |
-          pwd
-          tree /home
-
-      - name: 运行linux命令
-        run: |
-          echo hello world > hello.txt
-          date
       - name: 运行node.js
-        run: node ../index.js
+        run: node ./index.js
