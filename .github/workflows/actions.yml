@@ -1,0 +1,14 @@
+name: actions的使用
+on: workflow_dispatch
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: npm install
+        run: npm install
+      - name: npm start
+        run: npm start
+      - name: linux command
+        run: pwd
