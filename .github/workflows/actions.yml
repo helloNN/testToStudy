@@ -5,10 +5,16 @@ jobs:
   pytest:
     runs-on: ubuntu-latest
     steps:
+      - name: find pwd
+        run: |
+          pwd
+          ls -lh
       - uses: actions/checkout@v6
       - name: npm install
         run: npm install
       - name: npm start
         run: npm start
-      - name: linux command
-        run: pwd
+      - name: find pwd
+        run: |
+          pwd
+          ls- lh
