@@ -17,4 +17,4 @@ jobs:
       - name: find pwd
         run: |
           pwd
-          ls- lh
+          ls -lh
